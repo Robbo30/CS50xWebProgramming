@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            .margins{
+                margin-top: 3px;
+                right: 18%
+            }
+            .navigation {
+                position: absolute;
+                margin-left: 90%;
+                margin-top: 10px;
+            }
+            body {
+                background-color: aquamarine;
+            }
+            input {
+                display: grid;
+                border: 2px solid;
+                border-radius: 10px;
+                right: 20%
+            }
+            button { 
+                background-color: rgb(255, 255, 255);
+                color: aquamarine;
+            }
+            format {
+                position: center;
+            }
+            #titles {
+                position: center;
+                top: 10px;
+                margin-left: 35%;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titles">Welcome to Advanced Search!</h1>
+        <div class="navigation">
+            <a href="index.html">Google Search</a>
+        </div>
+        <form action="https://www.google.com/search" method="get" target="blank">
+                <button class="margins" type="submit" value="Submit">Submit</button>
+                <input class="margins" type="text" placeholder="All these words:">
+                <input class="margins" type="text" placeholder="This exact word or phrase:">
+                <input class="margins" type="text" placeholder="Any of thee words:">
+                <input class="margins" type="text" placeholder="None of these words:">
+        </form>
+    </body>
+</html>

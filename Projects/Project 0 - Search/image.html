@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            body {
+                background-color: aquamarine;
+            }
+            input {
+                border: 2px solid;
+                border-radius: 10px;
+                background-color: rgb(255, 255, 255);
+            }
+            #title {
+                position: absolute;
+                top: 10px;
+                margin-left: 35%;
+                color: rgb(255, 255, 255);
+            }
+            .navigation {
+                position: absolute;
+                margin-left: 90%;
+                margin-top: 8px;
+            }
+            format {
+                position: absolute;
+                left: 40%;
+                top: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Welcome to Image Search!</h1>
+        <div class="navigation">
+            <a href="index.html">Search</a>
+        </div>
+        <format action="http://images.google.com/images" target="blank">
+            <input type="submit" value="Search"/>
+            <input type="text"/>
+          </format>
+    </body>
+</html>
