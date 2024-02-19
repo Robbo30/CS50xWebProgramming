@@ -28,4 +28,4 @@ The course is split up into 5 Projects, with each Project having a different foc
 - [ ] Final Project (Capstone)
 
 
-####Link to the Course: https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home
+#### Link to the Course: https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home
