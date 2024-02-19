@@ -16,3 +16,15 @@ The course is split up into 9 Lecturers with a new topic each lecture, such as:
 - [ ] Lecture 8(Testing and CI/CD)
 - [ ] Lecture 9(Scalability/Security)
 
+### Projects in the Course
+---
+The course is split up into 5 Projects, with each Project having a different focus, such as:
+
+- [x] Project 0(Search)
+- [ ] Project 1(Wiki)
+- [ ] Project 2(Commerce)
+- [ ] Project 3(Mail)
+- [ ] Project 4(Network)
+- [ ] Final Project (Capstone)
+
+
