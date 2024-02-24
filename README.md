@@ -9,7 +9,7 @@ The course is split up into 9 Lecturers with a new topic each lecture, such as:
 - [x] Lecture 1(HTML/CSS)
 - [x] Lecture 2(Git)
 - [x] Lecture 3(Python)
-- [ ] Lecture 4(Django)
+- [x] Lecture 4(Django)
 - [ ] Lecture 5(SQL/Models/Migrations)
 - [ ] Lecture 6(JavaScript)
 - [ ] Lecture 7(User Interfaces)
@@ -21,7 +21,7 @@ The course is split up into 9 Lecturers with a new topic each lecture, such as:
 The course is split up into 5 Projects, with each Project having a different focus, such as:
 
 - [x] Project 0(Search)
-- [ ] Project 1(Wiki)
+- [x] Project 1(Wiki)
 - [ ] Project 2(Commerce)
 - [ ] Project 3(Mail)
 - [ ] Project 4(Network)
