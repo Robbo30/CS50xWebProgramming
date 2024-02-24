@@ -1,0 +1,1 @@
+Hypertext Markup Language (HTML) is a language used to create web pages, it allows you to structure the web pages and the content inside of it.

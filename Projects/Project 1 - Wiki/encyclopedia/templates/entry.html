@@ -1,0 +1,12 @@
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    {{ entry | safe}}
+    <form action="{url'edit'}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="entry" value="{{title}}">
+        <input type="submit" value="Edit">
+    </form>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% block title %}
+    Edit {{ title }}
+{% endblock %}
+
+{% block body %}
+    <form action="/edit/{{ title }}" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <h5>Edit</h5>
+            <textarea class="form-control" id="entry" name="entry" rows="20">{{ entry }}</textarea>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+{% endblock %}

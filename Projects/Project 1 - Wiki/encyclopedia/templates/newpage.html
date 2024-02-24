@@ -1,0 +1,18 @@
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>Create a new page</h1>
+    {% if exist %}
+        <p>
+            The <a href="wiki/{{ title }}">{{title}}</a> That page already exists
+        </p>
+    {% endif %}
+    <form action="{url'newpage'}" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit">
+        <input class="btn btn-primary" type="submit" value="Submit" padding="20px">
+    </form>
+{% endblock %}

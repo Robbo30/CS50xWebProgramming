@@ -1,0 +1,12 @@
+{% block title %}
+    Search result
+{% endblock %}
+
+{% block body %}
+    <h1>Search Result</h1>
+    <ul>
+        {% for i in results %}
+            <li><a href="{{ result }}">{{ i }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

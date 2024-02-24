@@ -1,0 +1,1 @@
+Python is a high- level, general purpose progrmaming language that can be used for many tasks such as: problem solving, game making, building websites and automating tasks.
